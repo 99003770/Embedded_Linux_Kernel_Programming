@@ -1,4 +1,4 @@
-obj-m += spin.o
+obj-m += sema.o
 
 KSRC = /lib/modules/$(shell uname -r)/build
 all:
